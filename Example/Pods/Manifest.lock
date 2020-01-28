@@ -1,0 +1,16 @@
+PODS:
+  - Tremolo (1.0.0)
+
+DEPENDENCIES:
+  - Tremolo (from `../`)
+
+EXTERNAL SOURCES:
+  Tremolo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Tremolo: b986c0804879ea14aa7955a54c329408b3dc50af
+
+PODFILE CHECKSUM: b7ff9149a519c0a245a7ffa3704c7a36e8bc410a
+
+COCOAPODS: 1.8.4

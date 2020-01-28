@@ -1,0 +1,6 @@
+framework module Pods_Tremolo_Example {
+  umbrella header "Pods-Tremolo_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

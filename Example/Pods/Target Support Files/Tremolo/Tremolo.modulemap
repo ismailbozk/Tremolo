@@ -1,0 +1,6 @@
+framework module Tremolo {
+  umbrella header "Tremolo-umbrella.h"
+
+  export *
+  module * { export * }
+}

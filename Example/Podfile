@@ -1,0 +1,12 @@
+platform :ios, '10.0'
+use_frameworks!
+
+target 'Tremolo_Example' do
+  pod 'Tremolo', :path => '../'
+
+  target 'Tremolo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
