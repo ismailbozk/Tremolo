@@ -26,7 +26,7 @@ Please refer to the [sample unit test](https://github.com/ismailbozk/Tremolo/blo
 ## Installation
 
 Tremolo is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+it, simply add the following line to your Podfile and install/update the pods.
 
 ```ruby
 pod 'Tremolo'
