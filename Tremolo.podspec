@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Tremolo'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'An iOS Networking framework for handling recoverable network calls.'
-  s.swift_versions   = ['5.0', '5.1']
+  s.swift_versions   = ['5.0', '5.1', '5.2']
 
   s.description      = <<-DESC
 A good software must provide best possible user experience that technology can provide. With that mind state, Tremolo aims make recoverable network api errors easier to handle, such as invalid or expired session, logged out users, etc.
@@ -25,11 +25,4 @@ A good software must provide best possible user experience that technology can p
 
   s.source_files = 'Tremolo/Classes/**/*'
 
-  # s.resource_bundles = {
-  #   'Tremolo' => ['Tremolo/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

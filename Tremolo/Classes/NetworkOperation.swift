@@ -37,7 +37,7 @@ class NetworkOperation: NetworkRequestOperation {
         networkTask = client.perform(request: request) { (result) in
             let networkResult: NetworkResult
             switch result {
-            case .success(let urlResponse, let data):
+            case .success((let urlResponse, let data)):
                 networkResult = .success((urlResponse, data))
             case .failure(let error):
                 networkResult = .failure(error)

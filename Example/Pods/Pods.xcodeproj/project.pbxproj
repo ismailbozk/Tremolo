@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		08808000C6D4B89A405DF950389A8CDF /* Pods-Tremolo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34F80D079F3726BC2E836C75666DA6A6 /* Pods-Tremolo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12D3D66990F93475F238F34163BC6435 /* NetworkOperationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C579013A9E36956A7F9B18A3B183F2D /* NetworkOperationQueue.swift */; };
-		1495B590E8B5288E91400570CE131A39 /* Tremolo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB97DDF243EA4805E7A3906D230FC43 /* Tremolo-dummy.m */; };
+		12D3D66990F93475F238F34163BC6435 /* NetworkOperationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C9BEADBEDD36E84370765A1D341BCA /* NetworkOperationQueue.swift */; };
+		1495B590E8B5288E91400570CE131A39 /* Tremolo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F677FB015F114D772D8230B88811BCCA /* Tremolo-dummy.m */; };
 		1BBD6662031260CEA8D5D25F5ADE95F0 /* Pods-Tremolo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9DDE961D5F121FE6067FC3EBB827CC /* Pods-Tremolo_Example-dummy.m */; };
-		3C51B3541DB49D303E366A1C26AB1254 /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97911EFF118FDF28D0DDC3790EFA68F6 /* NetworkOperation.swift */; };
-		603F4EF6C78F39B83B284E813655B965 /* NetworkingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7626DCEE68CB602941799DBCE2D3C984 /* NetworkingClient.swift */; };
-		6536627061739160C2E1431F2C8B311B /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F9CAD3A942ECF508A03A58F42F69FC /* Networking.swift */; };
+		29475F045E7965984FA9B75C0657E8B0 /* QueuedAsyncNetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81246C0C5E4D83EE58CADB6E415C7971 /* QueuedAsyncNetworkOperation.swift */; };
+		3C51B3541DB49D303E366A1C26AB1254 /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CB2F102F6B9F8F0C0935829D22ECF1 /* NetworkOperation.swift */; };
+		603F4EF6C78F39B83B284E813655B965 /* NetworkingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3845A80A379DC115202BD1267AAB973 /* NetworkingClient.swift */; };
+		6536627061739160C2E1431F2C8B311B /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC59BB15548A527D0DE856D2D7EA9086 /* Networking.swift */; };
 		6A2BEE542324180CF4AC4A497C58731C /* Pods-Tremolo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9A461433E59C8575C1E43C840DAF2D /* Pods-Tremolo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AD4EFE6E6B9F3D8BACBD43DC14EB61F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		838863F2A9FABE1082F51CA3AA1E02B6 /* Tremolo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A14AB612C40CA83BCF26099989535D /* Tremolo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		838863F2A9FABE1082F51CA3AA1E02B6 /* Tremolo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACCC03C95FA14867B5038EC543AA53B /* Tremolo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F84633A8D1D690F26440728809016C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A90EF15E97035CA975624B3B6E3C20C8 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD515992AE223D6CCF5BABA1602E94 /* NetworkClient.swift */; };
+		A90EF15E97035CA975624B3B6E3C20C8 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908201EEDB81C2461D3E92D2EB7D99DA /* NetworkClient.swift */; };
 		C68FBBFD7760B60BA4B0D7522FC275A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C8D5709123E0968200C4CCA1 /* QueuedAsyncNetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D5708F23E0968200C4CCA1 /* QueuedAsyncNetworkOperation.swift */; };
-		C8D5709223E0968200C4CCA1 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D5709023E0968200C4CCA1 /* AsyncOperation.swift */; };
 		DBE90A0570E90994EDB9C26F134A4837 /* Pods-Tremolo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFE76BA133DA8C3669500D03688045 /* Pods-Tremolo_Tests-dummy.m */; };
+		DC4DA0CC9FDBCF4D09FED036517B2E31 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9991B75C26537361D8E9B33027F46645 /* AsyncOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,43 +43,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00F9CAD3A942ECF508A03A58F42F69FC /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = Tremolo/Classes/Networking.swift; sourceTree = "<group>"; };
-		04A14AB612C40CA83BCF26099989535D /* Tremolo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tremolo-umbrella.h"; sourceTree = "<group>"; };
 		06634B5763378D5A8C912D78A8EC535E /* Pods-Tremolo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tremolo_Example-frameworks.sh"; sourceTree = "<group>"; };
-		06B6353D6B70ACB282C55EDB91C1BF18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		0C579013A9E36956A7F9B18A3B183F2D /* NetworkOperationQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkOperationQueue.swift; path = Tremolo/Classes/NetworkOperationQueue.swift; sourceTree = "<group>"; };
-		0F93EC7FEC1BA89A4F23FE5F7D133F48 /* Pods_Tremolo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tremolo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F93EC7FEC1BA89A4F23FE5F7D133F48 /* Pods_Tremolo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tremolo_Tests.framework; path = "Pods-Tremolo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBFE76BA133DA8C3669500D03688045 /* Pods-Tremolo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tremolo_Tests-dummy.m"; sourceTree = "<group>"; };
-		19231894111F00ED4D24DD966974044F /* Tremolo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Tremolo.xcconfig; sourceTree = "<group>"; };
+		175AF37439F12463A1C6F28FB88B1675 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1E86E17C7287F0E5D42ACECBC22A7606 /* Pods-Tremolo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tremolo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CD05EC66AAF89BBAC73011C20A8EDCD /* Tremolo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Tremolo.debug.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34F80D079F3726BC2E836C75666DA6A6 /* Pods-Tremolo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tremolo_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3E67A7C230BE925ED65036D33FA2D129 /* Pods-Tremolo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tremolo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		447E701D71629CF6E031C5877A11E21B /* Tremolo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Tremolo.modulemap; sourceTree = "<group>"; };
-		5BECCD834ED968C1418BBA256DD37E20 /* Tremolo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Tremolo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5E9A461433E59C8575C1E43C840DAF2D /* Pods-Tremolo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tremolo_Example-umbrella.h"; sourceTree = "<group>"; };
 		5E9D142FE2A905E33E96E6B22903C0EF /* Pods-Tremolo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tremolo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5F9DDE961D5F121FE6067FC3EBB827CC /* Pods-Tremolo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tremolo_Example-dummy.m"; sourceTree = "<group>"; };
 		60F4E2EBFBE4ADA8EC00EEDC2FDA28BC /* Pods-Tremolo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tremolo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		69719BE9236FD79025A95A0DB7A767DA /* Tremolo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Tremolo.modulemap; sourceTree = "<group>"; };
+		6ACCC03C95FA14867B5038EC543AA53B /* Tremolo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tremolo-umbrella.h"; sourceTree = "<group>"; };
 		6BF8908E11E7B7CFA285BA5C9D09E662 /* Pods-Tremolo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tremolo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7626DCEE68CB602941799DBCE2D3C984 /* NetworkingClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkingClient.swift; path = Tremolo/Classes/NetworkingClient.swift; sourceTree = "<group>"; };
-		7BB97DDF243EA4805E7A3906D230FC43 /* Tremolo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Tremolo-dummy.m"; sourceTree = "<group>"; };
-		8A2411CB1826232F04285A1A71728D76 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6E6DDB019D90C2F1E53E1A80CAB031ED /* Tremolo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Tremolo-Info.plist"; sourceTree = "<group>"; };
+		81246C0C5E4D83EE58CADB6E415C7971 /* QueuedAsyncNetworkOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QueuedAsyncNetworkOperation.swift; sourceTree = "<group>"; };
+		908201EEDB81C2461D3E92D2EB7D99DA /* NetworkClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkClient.swift; path = Tremolo/Classes/NetworkClient.swift; sourceTree = "<group>"; };
 		93025E0BF702FCB1A6258BFE9BDC2FDE /* Pods-Tremolo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tremolo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		938A2347D6CF5BCAD7C275319A39CD52 /* Tremolo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tremolo-prefix.pch"; sourceTree = "<group>"; };
-		97911EFF118FDF28D0DDC3790EFA68F6 /* NetworkOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkOperation.swift; path = Tremolo/Classes/NetworkOperation.swift; sourceTree = "<group>"; };
+		9991B75C26537361D8E9B33027F46645 /* AsyncOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
 		9AAE06705E36271CF04C1B8B875DA839 /* Pods-Tremolo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tremolo_Example-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1DD515992AE223D6CCF5BABA1602E94 /* NetworkClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkClient.swift; path = Tremolo/Classes/NetworkClient.swift; sourceTree = "<group>"; };
-		BA19990A4FED93569A7521980BCDD421 /* Pods_Tremolo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tremolo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAC43B99D09C22D5E78EC67FF53D034D /* Tremolo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Tremolo-Info.plist"; sourceTree = "<group>"; };
+		9C40242A6B8B4E879F3470D6BAA5543B /* Tremolo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Tremolo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE519EE44CF2BC92FA4A70A8269BD045 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BA19990A4FED93569A7521980BCDD421 /* Pods_Tremolo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tremolo_Example.framework; path = "Pods-Tremolo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1271D1569AB608F2DB7D3D78BD5E9D /* Pods-Tremolo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tremolo_Tests-Info.plist"; sourceTree = "<group>"; };
-		C8D5708F23E0968200C4CCA1 /* QueuedAsyncNetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueuedAsyncNetworkOperation.swift; sourceTree = "<group>"; };
-		C8D5709023E0968200C4CCA1 /* AsyncOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
-		C9F2F87108033A0BA95F0DA7C67A6669 /* Tremolo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tremolo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1CB2F102F6B9F8F0C0935829D22ECF1 /* NetworkOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkOperation.swift; path = Tremolo/Classes/NetworkOperation.swift; sourceTree = "<group>"; };
+		C9F2F87108033A0BA95F0DA7C67A6669 /* Tremolo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Tremolo.framework; path = Tremolo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC59BB15548A527D0DE856D2D7EA9086 /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = Tremolo/Classes/Networking.swift; sourceTree = "<group>"; };
+		DD246104D81B5BCDD2DA0A3C19C26202 /* Tremolo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Tremolo.release.xcconfig; sourceTree = "<group>"; };
 		DEB29FB5AF18014738A9775CDEBAE05B /* Pods-Tremolo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tremolo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E2EF071C3BBAD0A97D38D68E9C5E490F /* Pods-Tremolo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tremolo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E56F62F32A84B2EB6388791F6C7D5530 /* Tremolo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tremolo-prefix.pch"; sourceTree = "<group>"; };
+		E8C9BEADBEDD36E84370765A1D341BCA /* NetworkOperationQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkOperationQueue.swift; path = Tremolo/Classes/NetworkOperationQueue.swift; sourceTree = "<group>"; };
 		EF75AEF636B041F4D9C5D1D716A3E0F2 /* Pods-Tremolo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Tremolo_Example.modulemap"; sourceTree = "<group>"; };
+		F3845A80A379DC115202BD1267AAB973 /* NetworkingClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkingClient.swift; path = Tremolo/Classes/NetworkingClient.swift; sourceTree = "<group>"; };
+		F677FB015F114D772D8230B88811BCCA /* Tremolo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Tremolo-dummy.m"; sourceTree = "<group>"; };
 		FD818CC25D5B013FC0DDDF066611DB35 /* Pods-Tremolo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Tremolo_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +112,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		134F1383B80E204EB93BA4AE59DA02DA /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				9991B75C26537361D8E9B33027F46645 /* AsyncOperation.swift */,
+				81246C0C5E4D83EE58CADB6E415C7971 /* QueuedAsyncNetworkOperation.swift */,
+			);
+			name = Operations;
+			path = Tremolo/Classes/Operations;
+			sourceTree = "<group>";
+		};
 		202E13F232987F521001F0B261F1A6B8 /* Pods-Tremolo_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,34 +138,20 @@
 			path = "Target Support Files/Pods-Tremolo_Tests";
 			sourceTree = "<group>";
 		};
-		33DC38FB762F2056A21B0E859CA932FB /* Tremolo */ = {
+		23DC7FB780928520399849258662F789 /* Tremolo */ = {
 			isa = PBXGroup;
 			children = (
-				A1DD515992AE223D6CCF5BABA1602E94 /* NetworkClient.swift */,
-				00F9CAD3A942ECF508A03A58F42F69FC /* Networking.swift */,
-				7626DCEE68CB602941799DBCE2D3C984 /* NetworkingClient.swift */,
-				97911EFF118FDF28D0DDC3790EFA68F6 /* NetworkOperation.swift */,
-				0C579013A9E36956A7F9B18A3B183F2D /* NetworkOperationQueue.swift */,
-				AFD5870E7E79528DDB5C7F1D87BF56FD /* Operations */,
-				BEC45AFEF114E703775AA32F41E94671 /* Pod */,
-				3C747DE2D74B20363AAD667EF506E27C /* Support Files */,
+				908201EEDB81C2461D3E92D2EB7D99DA /* NetworkClient.swift */,
+				CC59BB15548A527D0DE856D2D7EA9086 /* Networking.swift */,
+				F3845A80A379DC115202BD1267AAB973 /* NetworkingClient.swift */,
+				C1CB2F102F6B9F8F0C0935829D22ECF1 /* NetworkOperation.swift */,
+				E8C9BEADBEDD36E84370765A1D341BCA /* NetworkOperationQueue.swift */,
+				134F1383B80E204EB93BA4AE59DA02DA /* Operations */,
+				B0C6C330EF09F8562A9C5695DA04BE51 /* Pod */,
+				F7CBBC6F930FE1B97874B454B97EBABE /* Support Files */,
 			);
 			name = Tremolo;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		3C747DE2D74B20363AAD667EF506E27C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				447E701D71629CF6E031C5877A11E21B /* Tremolo.modulemap */,
-				19231894111F00ED4D24DD966974044F /* Tremolo.xcconfig */,
-				7BB97DDF243EA4805E7A3906D230FC43 /* Tremolo-dummy.m */,
-				BAC43B99D09C22D5E78EC67FF53D034D /* Tremolo-Info.plist */,
-				938A2347D6CF5BCAD7C275319A39CD52 /* Tremolo-prefix.pch */,
-				04A14AB612C40CA83BCF26099989535D /* Tremolo-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Tremolo";
 			sourceTree = "<group>";
 		};
 		AA0F9843D85399981C59F9931C44B75F /* Products */ = {
@@ -167,22 +164,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AFD5870E7E79528DDB5C7F1D87BF56FD /* Operations */ = {
+		B0C6C330EF09F8562A9C5695DA04BE51 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C8D5709023E0968200C4CCA1 /* AsyncOperation.swift */,
-				C8D5708F23E0968200C4CCA1 /* QueuedAsyncNetworkOperation.swift */,
-			);
-			name = Operations;
-			path = Tremolo/Classes/Operations;
-			sourceTree = "<group>";
-		};
-		BEC45AFEF114E703775AA32F41E94671 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				06B6353D6B70ACB282C55EDB91C1BF18 /* LICENSE */,
-				8A2411CB1826232F04285A1A71728D76 /* README.md */,
-				5BECCD834ED968C1418BBA256DD37E20 /* Tremolo.podspec */,
+				175AF37439F12463A1C6F28FB88B1675 /* LICENSE */,
+				AE519EE44CF2BC92FA4A70A8269BD045 /* README.md */,
+				9C40242A6B8B4E879F3470D6BAA5543B /* Tremolo.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -234,9 +221,24 @@
 		DE4EF649E2F4320452D93B1425A815C4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				33DC38FB762F2056A21B0E859CA932FB /* Tremolo */,
+				23DC7FB780928520399849258662F789 /* Tremolo */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F7CBBC6F930FE1B97874B454B97EBABE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69719BE9236FD79025A95A0DB7A767DA /* Tremolo.modulemap */,
+				F677FB015F114D772D8230B88811BCCA /* Tremolo-dummy.m */,
+				6E6DDB019D90C2F1E53E1A80CAB031ED /* Tremolo-Info.plist */,
+				E56F62F32A84B2EB6388791F6C7D5530 /* Tremolo-prefix.pch */,
+				6ACCC03C95FA14867B5038EC543AA53B /* Tremolo-umbrella.h */,
+				2CD05EC66AAF89BBAC73011C20A8EDCD /* Tremolo.debug.xcconfig */,
+				DD246104D81B5BCDD2DA0A3C19C26202 /* Tremolo.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Tremolo";
 			sourceTree = "<group>";
 		};
 		FAC7DFA2D338B52F460710272082FD48 /* Targets Support Files */ = {
@@ -342,11 +344,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					D6D6FC725214400345CF4E570D6732EF = {
-						LastSwiftMigration = 1130;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -397,11 +394,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC4DA0CC9FDBCF4D09FED036517B2E31 /* AsyncOperation.swift in Sources */,
 				A90EF15E97035CA975624B3B6E3C20C8 /* NetworkClient.swift in Sources */,
 				6536627061739160C2E1431F2C8B311B /* Networking.swift in Sources */,
 				603F4EF6C78F39B83B284E813655B965 /* NetworkingClient.swift in Sources */,
 				3C51B3541DB49D303E366A1C26AB1254 /* NetworkOperation.swift in Sources */,
 				12D3D66990F93475F238F34163BC6435 /* NetworkOperationQueue.swift in Sources */,
+				29475F045E7965984FA9B75C0657E8B0 /* QueuedAsyncNetworkOperation.swift in Sources */,
 				1495B590E8B5288E91400570CE131A39 /* Tremolo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,8 +409,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8D5709123E0968200C4CCA1 /* QueuedAsyncNetworkOperation.swift in Sources */,
-				C8D5709223E0968200C4CCA1 /* AsyncOperation.swift in Sources */,
 				1BBD6662031260CEA8D5D25F5ADE95F0 /* Pods-Tremolo_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,44 +439,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07684C827D828EB0792C9B2F2AE54DC3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19231894111F00ED4D24DD966974044F /* Tremolo.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Tremolo/Tremolo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Tremolo/Tremolo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Tremolo/Tremolo.modulemap";
-				PRODUCT_MODULE_NAME = Tremolo;
-				PRODUCT_NAME = Tremolo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		109EAF786E9D000B1702CFDDB27B1B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 60F4E2EBFBE4ADA8EC00EEDC2FDA28BC /* Pods-Tremolo_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -503,8 +467,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -580,7 +542,6 @@
 			baseConfigurationReference = 5E9D142FE2A905E33E96E6B22903C0EF /* Pods-Tremolo_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -604,7 +565,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -612,9 +572,9 @@
 			};
 			name = Release;
 		};
-		37AEDC8151029B4E4F74FCED6BFB072D /* Release */ = {
+		45D0DB07668038346FC76A87534224E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19231894111F00ED4D24DD966974044F /* Tremolo.xcconfig */;
+			baseConfigurationReference = 2CD05EC66AAF89BBAC73011C20A8EDCD /* Tremolo.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -639,11 +599,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		543C90DB1BE17C017F336234192E6B13 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -673,6 +632,39 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A226B45F249B1C4A9C384B5854AC23C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD246104D81B5BCDD2DA0A3C19C26202 /* Tremolo.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Tremolo/Tremolo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Tremolo/Tremolo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Tremolo/Tremolo.modulemap";
+				PRODUCT_MODULE_NAME = Tremolo;
+				PRODUCT_NAME = Tremolo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -733,7 +725,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -779,8 +772,8 @@
 		29655E51DEB9F3F9E6CE8817B1D1D011 /* Build configuration list for PBXNativeTarget "Tremolo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07684C827D828EB0792C9B2F2AE54DC3 /* Debug */,
-				37AEDC8151029B4E4F74FCED6BFB072D /* Release */,
+				45D0DB07668038346FC76A87534224E2 /* Debug */,
+				A226B45F249B1C4A9C384B5854AC23C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

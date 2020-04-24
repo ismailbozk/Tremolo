@@ -27,7 +27,7 @@ class NetworkClientTests: XCTestCase {
             
             switch result {
                 
-            case .success(let urlResponse, _):
+            case .success((let urlResponse, _)):
                 XCTAssertNotNil(urlResponse as? HTTPURLResponse)
             case .failure:
                 XCTAssertTrue(false)
@@ -67,7 +67,7 @@ class NetworkClientTests: XCTestCase {
             
             switch result {
                 
-            case .success(let urlResponse, let data):
+            case .success((let urlResponse, let data)):
                 XCTAssertNotNil(data)
                 XCTAssertNotNil(urlResponse as? HTTPURLResponse)
                 XCTAssertTrue((urlResponse as? HTTPURLResponse)?.statusCode == 200)
